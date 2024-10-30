@@ -1,7 +1,7 @@
 // components/BuyerSupplierSection.tsx
 import React, { useState } from 'react';
 
-export default function BuyerSupplierSection() {
+export default function Buyer() {
   const [isBuyer, setIsBuyer] = useState(true);
 
   return (
