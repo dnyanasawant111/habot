@@ -3,6 +3,9 @@ import { Header } from './components/Header'
 import Banner from './components/Banner'
 import Location from './components/Location'
 import Buyer from './components/Buyer'
+import Find from './components/Find'
+import Works from './components/Works'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -11,6 +14,9 @@ const App = () => {
       <Banner/>
       <Location/>
       <Buyer/>
+      <Find/>
+      <Works/>
+      <Footer/>
     </div>
   )
 }
